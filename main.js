@@ -121,10 +121,18 @@ condicion1 || condicion2 es verdadero cuando al menos una de las condiciones es 
 // }
 
 
-let nombre = prompt ("ingrese su nombre")
+//let nombre = prompt ("ingrese su nombre")
 
-if (nombre != "") {
-    alert (`Hola ${nombre}`)
-}else {
-    alert ("Vuelva a ingresar su nombre")
-}
+//if (nombre != "") {
+//    alert (`Hola ${nombre}`)
+//}else {
+//    alert ("Vuelva a ingresar su nombre")
+//}
+
+/* for(let numero = 1; numero <= 20; numero++){
+  if(numero % 2 === 0){
+    continue;
+  }
+
+  console.log(numero);
+} */
