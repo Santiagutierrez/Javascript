@@ -136,3 +136,69 @@ condicion1 || condicion2 es verdadero cuando al menos una de las condiciones es 
 
   console.log(numero);
 } */
+
+/* let entrada = prompt("Tabla del 2");
+
+while (entrada != "10") {
+  switch (entrada) {
+    case "2x0":
+      alert("0");
+      break;
+
+    case "2x1":
+      alert("2");
+      break;
+
+    case "2x2":
+      alert("4");
+      break;
+    
+    case "2x3":
+      alert("6");
+      break;
+
+    case "2x4":
+      alert("8");
+      break;
+
+    case "2x5":
+      alert(10);
+      break;
+    
+    case "2x6":
+      alert(12);
+      break;
+
+    case "2x7":
+      alert(14);
+      break;
+
+    case "2x8":
+      alert(16);
+      break;
+
+    case "2x9":
+      alert(18);
+      break;
+    default:
+      alert("Llegamos hasta aca");
+      break;
+  }
+
+  entrada = prompt("tabla del 2");
+} */
+
+/*  for(let turno = 1; turno <= 7; turno++){
+   let nombre = prompt("Ingrese su nombre");
+
+   alert(`Turno #${turno} Nombre: ${nombre}`);
+ } */
+
+  let usuario = prompt("Ingrese el usuario");
+
+ while(usuario != "pepito"){
+   alert("Usuario incorrecto");
+   usuario = prompt("Ingrese el usuario");
+ }
+
+ alert("Bienvenido");
