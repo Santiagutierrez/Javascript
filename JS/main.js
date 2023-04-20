@@ -194,7 +194,7 @@ while (entrada != "10") {
    alert(`Turno #${turno} Nombre: ${nombre}`);
  } */
 
-  let usuario = prompt("Ingrese el usuario");
+ /*  let usuario = prompt("Ingrese el usuario");
 
  while(usuario != "pepito"){
    alert("Usuario incorrecto");
@@ -202,3 +202,17 @@ while (entrada != "10") {
  }
 
  alert("Bienvenido");
+  */
+
+
+const suma = (a, b) => a + b;
+const resta = (a, b) => a - b;
+const iva = x => x * 0.21;
+
+let precioproducto = 1000;
+let descuento = 10;
+
+let nuevoPrecio = resta(suma(precioproducto, iva(precioproducto)), descuento);
+
+console.log(precioproducto);
+alert ("el precio sera")
