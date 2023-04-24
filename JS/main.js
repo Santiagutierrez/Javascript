@@ -1,4 +1,4 @@
- let edad = parseInt(prompt("Ingrese su edad"));
+let edad = parseInt(prompt("Ingrese su edad"));
 
  if(edad < 14){
    alert("No puedes entrar a este sitio web");
@@ -34,4 +34,4 @@ let descuento = 10;
 
 let nuevoPrecio = resta(suma(precioproducto, iva(precioproducto)), descuento);
 
-console.log(precioproducto);
+console.log(precioproducto); 
