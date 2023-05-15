@@ -22,3 +22,9 @@
     position: relative;
     top: 970px;
   }
+
+  .textoId {
+    font-size: 200px;
+    padding: 300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
